@@ -1,0 +1,36 @@
+.d_trb{
+    border:1px solid red;
+}
+
+.d_populer
+{
+
+}
+
+.d_pop_slider{
+    height:370px;
+}
+.d_pop_slider> ul{
+    width:7200px;
+}
+
+.d_pop_ul{
+    animation:popp 8s linear  infinite;
+}
+
+@keyframes popp{
+    0%{transform: translateX(0px);}
+    11%{transform: translateX(-470px);}
+    22%{transform: translateX(-940px);}
+    33%{transform: translate(-1400px);}
+    44%{transform: translate(-1600px);}
+    66%{transform: translate(-2400px);}
+    77%{transform: translate(-2800px);}
+    88%{transform: translate(-3300px);}
+    95%{transform: translate(-3600px);}
+    96%{transform: translate(-4200px);}
+    100%{transform: translateX(-4500px);}
+}
+.d_pop_slider a{
+    width:475px;
+}
